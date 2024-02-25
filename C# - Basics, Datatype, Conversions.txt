@@ -1,0 +1,88 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hello
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("hello world");
+            Console.WriteLine("welcome to Infinite Computers 2024");
+            Console.WriteLine("Lets Start the Journey Of C#");
+            Console.WriteLine(" ---------------------- ");
+
+
+            // data types in C#
+
+            int a = 20;
+            float b = 23.4f;
+            char c = 'X';
+            bool f = true;
+            double d = 34.4D;
+            long e = 2444;
+            string str = "Learning data type in C#";
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
+            Console.WriteLine(str);
+            Console.WriteLine(" ----------------------- ");
+
+
+
+
+            // Type casting 
+            /*
+               there are two types of casting 
+            1. Implicit 
+           ----- char-int-long-float-double -----
+            2. Explicit 
+             
+             */
+
+            
+            int x = 3;
+            double y = x;    //integer to double
+            int z = 'y';     //character to integer
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z); // 121 is the ascii value of Y
+            Console.WriteLine( " above are the examples of Implicit casting ");
+            Console.WriteLine("------------------");
+
+            
+
+            int w= (int)3.5;
+            double w2 = (char)2;
+            float flt = Convert.ToInt32 (345.66); //using convert.ToInt32 method..
+            string s1 = Convert.ToString(234); //using Convert.ToString method ..
+            Console.WriteLine(s1);
+            Console.WriteLine(flt);
+            Console.WriteLine(" the value of w2 after casting is " + w2);
+            Console.WriteLine(" the value of w after casting is " + w);
+            Console.WriteLine( " the above are the examples of Explicit casting and refrence to value ");
+            Console.WriteLine( " ------------------");
+             
+            // giving user Input 
+
+            Console.WriteLine("what is your name -");
+            string name = Console.ReadLine();
+            Console.WriteLine(" hey" + name + " how are you ? ");
+            string answer = Console.ReadLine();
+            Console.WriteLine( " Thats nice , Have a Good day");
+
+            Console.ReadLine();
+
+
+
+
+
+        }
+    }
+}
