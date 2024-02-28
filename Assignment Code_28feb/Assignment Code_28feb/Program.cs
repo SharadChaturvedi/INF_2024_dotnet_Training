@@ -24,7 +24,8 @@ Pythn */
         static void Main(string[] args)
         {
             Program pro = new Program();
-            
+            swap();
+
             string s;
             int n;
             Console.WriteLine("Enter a String and position ");
@@ -36,15 +37,25 @@ Pythn */
                 if (i != n)
                     newS = newS + s[i];
             }
+            Console.WriteLine(newS);
             Console.ReadLine();
-        } 
+        }
+
+         // question number 2,
+        static void swap()
+        {
+            Console.WriteLine("Enter any Word:- ");
+            string str = Convert.ToString(Console.ReadLine());
+            int last = str.Length;
+            string newStr = string.Empty;
+            newStr += str.Substring(str.Length - 1) + str.Substring(1, str.Length - 2) + str.Substring(0, 1);
+            Console.WriteLine(newStr);
+        }
+
+
     }
 }
-        
 
-    
-   
-    
-        
-    
+
+
 

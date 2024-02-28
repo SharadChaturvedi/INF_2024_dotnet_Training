@@ -9,43 +9,30 @@ namespace Assignment_Code_28feb
 {
     internal class second_question
     {
-        public second_question() {
-            string s;
-            char temp;
-            Console.WriteLine("Enter a string: ");   
-            s = Console.ReadLine();
-            int len = s.Length;
-            return s[len - 1] + s.Substring(1, len - 2) + s[0];
-
-           
-            char Last = s[len - 1];   
-            Console.WriteLine(Last);
-            char first;
-            int LastChar = s.Length - 1;
-
-            for (int i = 0; i < s.Length; i++)
+        public second_question()
+        {
+            void swap()
             {
-                if (i == 0 || i == s.Length - 1)
-                {
-
-                    temp = s[i];   
-                    s[LastChar] = temp;
-
-
-                }
-
+                Console.WriteLine("Enter any Word:- ");
+                string str = Convert.ToString(Console.ReadLine());
+                int last = str.Length;
+                string newStr = string.Empty;
+                newStr += str.Substring(str.Length - 1) + str.Substring(1, str.Length - 2) + str.Substring(0, 1);
+                Console.WriteLine(newStr);
+                Console.ReadLine();
             }
-            return s;
-           
-
-
-
-
-
-
 
 
         }
+    }
+
+
+
+}
+
+
+
+        
 
 
 
