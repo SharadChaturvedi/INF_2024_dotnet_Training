@@ -361,37 +361,7 @@ namespace Tasks_26feb
                 Console.WriteLine(" the are not same ");
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            Console.ReadLine();
+                Console.ReadLine();
         }
     }
 }
