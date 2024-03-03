@@ -1,0 +1,7 @@
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\bin\Debug\Assignement.2.exe.config
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\bin\Debug\Assignement.2.exe
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\bin\Debug\Assignement.2.pdb
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\obj\Debug\Assignement.2.csproj.AssemblyReference.cache
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\obj\Debug\Assignement.2.csproj.CoreCompileInputs.cache
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\obj\Debug\Assignement.2.exe
+C:\Users\sharad chaubey\source\repos\Assignement.2\Assignement.2\obj\Debug\Assignement.2.pdb
