@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assesment_4__March.StudentTesting</StartupObject>
+    <StartupObject>Assesment_4__March.Product</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
