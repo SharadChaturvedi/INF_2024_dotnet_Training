@@ -1,0 +1,10 @@
+D:\Assignment_4\Concession\TestClinet\bin\Debug\TestClinet.exe.config
+D:\Assignment_4\Concession\TestClinet\bin\Debug\TestClinet.exe
+D:\Assignment_4\Concession\TestClinet\bin\Debug\TestClinet.pdb
+D:\Assignment_4\Concession\TestClinet\obj\Debug\TestClinet.csproj.AssemblyReference.cache
+D:\Assignment_4\Concession\TestClinet\obj\Debug\TestClinet.csproj.CoreCompileInputs.cache
+D:\Assignment_4\Concession\TestClinet\obj\Debug\TestClinet.exe
+D:\Assignment_4\Concession\TestClinet\obj\Debug\TestClinet.pdb
+D:\Assignment_4\Concession\TestClinet\bin\Debug\Concession.dll
+D:\Assignment_4\Concession\TestClinet\bin\Debug\Concession.pdb
+D:\Assignment_4\Concession\TestClinet\obj\Debug\TestClinet.csproj.Up2Date
